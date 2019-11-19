@@ -1,0 +1,692 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		735DA6382382465400AB6707 /* XEPhotoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 735DA6372382465400AB6707 /* XEPhotoModel.m */; };
+		735DA63B23826DE800AB6707 /* XEPhotoPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 735DA63A23826DE800AB6707 /* XEPhotoPickerViewController.m */; };
+		735DA6412382776500AB6707 /* XEPhotoPickerToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 735DA6402382776500AB6707 /* XEPhotoPickerToolBar.m */; };
+		735DA64723827ABE00AB6707 /* XEPhotoPickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 735DA64623827ABE00AB6707 /* XEPhotoPickerCell.m */; };
+		735DA64A2382811D00AB6707 /* XEPhotoPickerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 735DA6492382811D00AB6707 /* XEPhotoPickerManager.m */; };
+		735DA64D2382980400AB6707 /* addPictures.png in Resources */ = {isa = PBXBuildFile; fileRef = 735DA64B2382980400AB6707 /* addPictures.png */; };
+		735DA64E2382980400AB6707 /* deletePhoto.png in Resources */ = {isa = PBXBuildFile; fileRef = 735DA64C2382980400AB6707 /* deletePhoto.png */; };
+		737111FD237A882700C29D18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 737111FC237A882700C29D18 /* AppDelegate.m */; };
+		73711203237A882700C29D18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73711201237A882700C29D18 /* Main.storyboard */; };
+		73711205237A882A00C29D18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73711204237A882A00C29D18 /* Assets.xcassets */; };
+		73711208237A882A00C29D18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73711206237A882A00C29D18 /* LaunchScreen.storyboard */; };
+		7371120B237A882A00C29D18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7371120A237A882A00C29D18 /* main.m */; };
+		73711215237A882A00C29D18 /* XEPhotosPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73711214237A882A00C29D18 /* XEPhotosPickerTests.m */; };
+		73711220237A882A00C29D18 /* XEPhotosPickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7371121F237A882A00C29D18 /* XEPhotosPickerUITests.m */; };
+		7371126C237A910700C29D18 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7371126B237A910700C29D18 /* TestViewController.m */; };
+		7371126F237A923F00C29D18 /* HeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7371126E237A923F00C29D18 /* HeadView.m */; };
+		73711277237A96E900C29D18 /* XEPhotoAssetsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 73711276237A96E900C29D18 /* XEPhotoAssetsManager.m */; };
+		7371127D237A97D700C29D18 /* XEAlbumModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7371127C237A97D700C29D18 /* XEAlbumModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		73711211237A882A00C29D18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 737111F0237A882700C29D18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 737111F7237A882700C29D18;
+			remoteInfo = XEPhotosPicker;
+		};
+		7371121C237A882A00C29D18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 737111F0237A882700C29D18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 737111F7237A882700C29D18;
+			remoteInfo = XEPhotosPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		735DA6362382465400AB6707 /* XEPhotoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XEPhotoModel.h; sourceTree = "<group>"; };
+		735DA6372382465400AB6707 /* XEPhotoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XEPhotoModel.m; sourceTree = "<group>"; };
+		735DA63923826DE800AB6707 /* XEPhotoPickerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XEPhotoPickerViewController.h; sourceTree = "<group>"; };
+		735DA63A23826DE800AB6707 /* XEPhotoPickerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XEPhotoPickerViewController.m; sourceTree = "<group>"; };
+		735DA63F2382776500AB6707 /* XEPhotoPickerToolBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XEPhotoPickerToolBar.h; sourceTree = "<group>"; };
+		735DA6402382776500AB6707 /* XEPhotoPickerToolBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XEPhotoPickerToolBar.m; sourceTree = "<group>"; };
+		735DA64523827ABE00AB6707 /* XEPhotoPickerCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XEPhotoPickerCell.h; sourceTree = "<group>"; };
+		735DA64623827ABE00AB6707 /* XEPhotoPickerCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XEPhotoPickerCell.m; sourceTree = "<group>"; };
+		735DA6482382811D00AB6707 /* XEPhotoPickerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XEPhotoPickerManager.h; sourceTree = "<group>"; };
+		735DA6492382811D00AB6707 /* XEPhotoPickerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XEPhotoPickerManager.m; sourceTree = "<group>"; };
+		735DA64B2382980400AB6707 /* addPictures.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addPictures.png; sourceTree = "<group>"; };
+		735DA64C2382980400AB6707 /* deletePhoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deletePhoto.png; sourceTree = "<group>"; };
+		737111F8237A882700C29D18 /* XEPhotosPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XEPhotosPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		737111FB237A882700C29D18 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		737111FC237A882700C29D18 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		73711202237A882700C29D18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		73711204237A882A00C29D18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		73711207237A882A00C29D18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		73711209237A882A00C29D18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7371120A237A882A00C29D18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		73711210237A882A00C29D18 /* XEPhotosPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XEPhotosPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		73711214237A882A00C29D18 /* XEPhotosPickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XEPhotosPickerTests.m; sourceTree = "<group>"; };
+		73711216237A882A00C29D18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7371121B237A882A00C29D18 /* XEPhotosPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XEPhotosPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7371121F237A882A00C29D18 /* XEPhotosPickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XEPhotosPickerUITests.m; sourceTree = "<group>"; };
+		73711221237A882A00C29D18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7371126A237A910700C29D18 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		7371126B237A910700C29D18 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		7371126D237A923F00C29D18 /* HeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeadView.h; sourceTree = "<group>"; };
+		7371126E237A923F00C29D18 /* HeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeadView.m; sourceTree = "<group>"; };
+		73711273237A942300C29D18 /* XEPhotosPickerMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XEPhotosPickerMacro.h; sourceTree = "<group>"; };
+		73711275237A96E900C29D18 /* XEPhotoAssetsManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XEPhotoAssetsManager.h; sourceTree = "<group>"; };
+		73711276237A96E900C29D18 /* XEPhotoAssetsManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XEPhotoAssetsManager.m; sourceTree = "<group>"; };
+		7371127B237A97D700C29D18 /* XEAlbumModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XEAlbumModel.h; sourceTree = "<group>"; };
+		7371127C237A97D700C29D18 /* XEAlbumModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XEAlbumModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		737111F5237A882700C29D18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7371120D237A882A00C29D18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73711218237A882A00C29D18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		737111EF237A882700C29D18 = {
+			isa = PBXGroup;
+			children = (
+				737111FA237A882700C29D18 /* XEPhotosPicker */,
+				73711213237A882A00C29D18 /* XEPhotosPickerTests */,
+				7371121E237A882A00C29D18 /* XEPhotosPickerUITests */,
+				737111F9237A882700C29D18 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		737111F9237A882700C29D18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				737111F8237A882700C29D18 /* XEPhotosPicker.app */,
+				73711210237A882A00C29D18 /* XEPhotosPickerTests.xctest */,
+				7371121B237A882A00C29D18 /* XEPhotosPickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		737111FA237A882700C29D18 /* XEPhotosPicker */ = {
+			isa = PBXGroup;
+			children = (
+				737111FB237A882700C29D18 /* AppDelegate.h */,
+				737111FC237A882700C29D18 /* AppDelegate.m */,
+				7371126A237A910700C29D18 /* TestViewController.h */,
+				7371126B237A910700C29D18 /* TestViewController.m */,
+				7371126D237A923F00C29D18 /* HeadView.h */,
+				7371126E237A923F00C29D18 /* HeadView.m */,
+				735DA64B2382980400AB6707 /* addPictures.png */,
+				735DA64C2382980400AB6707 /* deletePhoto.png */,
+				73711270237A93E700C29D18 /* XEPhotosPicker */,
+				73711201237A882700C29D18 /* Main.storyboard */,
+				73711204237A882A00C29D18 /* Assets.xcassets */,
+				73711206237A882A00C29D18 /* LaunchScreen.storyboard */,
+				73711209237A882A00C29D18 /* Info.plist */,
+				7371120A237A882A00C29D18 /* main.m */,
+			);
+			path = XEPhotosPicker;
+			sourceTree = "<group>";
+		};
+		73711213237A882A00C29D18 /* XEPhotosPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				73711214237A882A00C29D18 /* XEPhotosPickerTests.m */,
+				73711216237A882A00C29D18 /* Info.plist */,
+			);
+			path = XEPhotosPickerTests;
+			sourceTree = "<group>";
+		};
+		7371121E237A882A00C29D18 /* XEPhotosPickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7371121F237A882A00C29D18 /* XEPhotosPickerUITests.m */,
+				73711221237A882A00C29D18 /* Info.plist */,
+			);
+			path = XEPhotosPickerUITests;
+			sourceTree = "<group>";
+		};
+		73711270237A93E700C29D18 /* XEPhotosPicker */ = {
+			isa = PBXGroup;
+			children = (
+				7371127A237A97B100C29D18 /* Controller */,
+				73711279237A97B100C29D18 /* Model */,
+				73711278237A97B100C29D18 /* View */,
+				73711274237A96CA00C29D18 /* Manager */,
+				73711271237A93F400C29D18 /* Macro */,
+			);
+			path = XEPhotosPicker;
+			sourceTree = "<group>";
+		};
+		73711271237A93F400C29D18 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				73711273237A942300C29D18 /* XEPhotosPickerMacro.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		73711274237A96CA00C29D18 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				73711275237A96E900C29D18 /* XEPhotoAssetsManager.h */,
+				73711276237A96E900C29D18 /* XEPhotoAssetsManager.m */,
+				735DA6482382811D00AB6707 /* XEPhotoPickerManager.h */,
+				735DA6492382811D00AB6707 /* XEPhotoPickerManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		73711278237A97B100C29D18 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				735DA63F2382776500AB6707 /* XEPhotoPickerToolBar.h */,
+				735DA6402382776500AB6707 /* XEPhotoPickerToolBar.m */,
+				735DA64523827ABE00AB6707 /* XEPhotoPickerCell.h */,
+				735DA64623827ABE00AB6707 /* XEPhotoPickerCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		73711279237A97B100C29D18 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7371127B237A97D700C29D18 /* XEAlbumModel.h */,
+				7371127C237A97D700C29D18 /* XEAlbumModel.m */,
+				735DA6362382465400AB6707 /* XEPhotoModel.h */,
+				735DA6372382465400AB6707 /* XEPhotoModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7371127A237A97B100C29D18 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				735DA63923826DE800AB6707 /* XEPhotoPickerViewController.h */,
+				735DA63A23826DE800AB6707 /* XEPhotoPickerViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		737111F7237A882700C29D18 /* XEPhotosPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73711224237A882A00C29D18 /* Build configuration list for PBXNativeTarget "XEPhotosPicker" */;
+			buildPhases = (
+				737111F4237A882700C29D18 /* Sources */,
+				737111F5237A882700C29D18 /* Frameworks */,
+				737111F6237A882700C29D18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XEPhotosPicker;
+			productName = XEPhotosPicker;
+			productReference = 737111F8237A882700C29D18 /* XEPhotosPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7371120F237A882A00C29D18 /* XEPhotosPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73711227237A882A00C29D18 /* Build configuration list for PBXNativeTarget "XEPhotosPickerTests" */;
+			buildPhases = (
+				7371120C237A882A00C29D18 /* Sources */,
+				7371120D237A882A00C29D18 /* Frameworks */,
+				7371120E237A882A00C29D18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73711212237A882A00C29D18 /* PBXTargetDependency */,
+			);
+			name = XEPhotosPickerTests;
+			productName = XEPhotosPickerTests;
+			productReference = 73711210237A882A00C29D18 /* XEPhotosPickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7371121A237A882A00C29D18 /* XEPhotosPickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7371122A237A882A00C29D18 /* Build configuration list for PBXNativeTarget "XEPhotosPickerUITests" */;
+			buildPhases = (
+				73711217237A882A00C29D18 /* Sources */,
+				73711218237A882A00C29D18 /* Frameworks */,
+				73711219237A882A00C29D18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7371121D237A882A00C29D18 /* PBXTargetDependency */,
+			);
+			name = XEPhotosPickerUITests;
+			productName = XEPhotosPickerUITests;
+			productReference = 7371121B237A882A00C29D18 /* XEPhotosPickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		737111F0237A882700C29D18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "小二";
+				TargetAttributes = {
+					737111F7237A882700C29D18 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					7371120F237A882A00C29D18 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 737111F7237A882700C29D18;
+					};
+					7371121A237A882A00C29D18 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 737111F7237A882700C29D18;
+					};
+				};
+			};
+			buildConfigurationList = 737111F3237A882700C29D18 /* Build configuration list for PBXProject "XEPhotosPicker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 737111EF237A882700C29D18;
+			productRefGroup = 737111F9237A882700C29D18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				737111F7237A882700C29D18 /* XEPhotosPicker */,
+				7371120F237A882A00C29D18 /* XEPhotosPickerTests */,
+				7371121A237A882A00C29D18 /* XEPhotosPickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		737111F6237A882700C29D18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73711208237A882A00C29D18 /* LaunchScreen.storyboard in Resources */,
+				73711205237A882A00C29D18 /* Assets.xcassets in Resources */,
+				735DA64D2382980400AB6707 /* addPictures.png in Resources */,
+				735DA64E2382980400AB6707 /* deletePhoto.png in Resources */,
+				73711203237A882700C29D18 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7371120E237A882A00C29D18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73711219237A882A00C29D18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		737111F4237A882700C29D18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				735DA6412382776500AB6707 /* XEPhotoPickerToolBar.m in Sources */,
+				7371126C237A910700C29D18 /* TestViewController.m in Sources */,
+				735DA64A2382811D00AB6707 /* XEPhotoPickerManager.m in Sources */,
+				735DA63B23826DE800AB6707 /* XEPhotoPickerViewController.m in Sources */,
+				7371126F237A923F00C29D18 /* HeadView.m in Sources */,
+				735DA64723827ABE00AB6707 /* XEPhotoPickerCell.m in Sources */,
+				7371120B237A882A00C29D18 /* main.m in Sources */,
+				735DA6382382465400AB6707 /* XEPhotoModel.m in Sources */,
+				7371127D237A97D700C29D18 /* XEAlbumModel.m in Sources */,
+				73711277237A96E900C29D18 /* XEPhotoAssetsManager.m in Sources */,
+				737111FD237A882700C29D18 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7371120C237A882A00C29D18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73711215237A882A00C29D18 /* XEPhotosPickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73711217237A882A00C29D18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73711220237A882A00C29D18 /* XEPhotosPickerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		73711212237A882A00C29D18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 737111F7237A882700C29D18 /* XEPhotosPicker */;
+			targetProxy = 73711211237A882A00C29D18 /* PBXContainerItemProxy */;
+		};
+		7371121D237A882A00C29D18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 737111F7237A882700C29D18 /* XEPhotosPicker */;
+			targetProxy = 7371121C237A882A00C29D18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		73711201237A882700C29D18 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73711202237A882700C29D18 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		73711206237A882A00C29D18 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73711207237A882A00C29D18 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		73711222237A882A00C29D18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		73711223237A882A00C29D18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		73711225237A882A00C29D18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3WRFCFKAHT;
+				INFOPLIST_FILE = XEPhotosPicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.5i84.XEPhotosPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		73711226237A882A00C29D18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3WRFCFKAHT;
+				INFOPLIST_FILE = XEPhotosPicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.5i84.XEPhotosPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		73711228237A882A00C29D18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3WRFCFKAHT;
+				INFOPLIST_FILE = XEPhotosPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.5i84.XEPhotosPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XEPhotosPicker.app/XEPhotosPicker";
+			};
+			name = Debug;
+		};
+		73711229237A882A00C29D18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3WRFCFKAHT;
+				INFOPLIST_FILE = XEPhotosPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.5i84.XEPhotosPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XEPhotosPicker.app/XEPhotosPicker";
+			};
+			name = Release;
+		};
+		7371122B237A882A00C29D18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3WRFCFKAHT;
+				INFOPLIST_FILE = XEPhotosPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.5i84.XEPhotosPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XEPhotosPicker;
+			};
+			name = Debug;
+		};
+		7371122C237A882A00C29D18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3WRFCFKAHT;
+				INFOPLIST_FILE = XEPhotosPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.5i84.XEPhotosPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XEPhotosPicker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		737111F3237A882700C29D18 /* Build configuration list for PBXProject "XEPhotosPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73711222237A882A00C29D18 /* Debug */,
+				73711223237A882A00C29D18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73711224237A882A00C29D18 /* Build configuration list for PBXNativeTarget "XEPhotosPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73711225237A882A00C29D18 /* Debug */,
+				73711226237A882A00C29D18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73711227237A882A00C29D18 /* Build configuration list for PBXNativeTarget "XEPhotosPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73711228237A882A00C29D18 /* Debug */,
+				73711229237A882A00C29D18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7371122A237A882A00C29D18 /* Build configuration list for PBXNativeTarget "XEPhotosPickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7371122B237A882A00C29D18 /* Debug */,
+				7371122C237A882A00C29D18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 737111F0237A882700C29D18 /* Project object */;
+}
